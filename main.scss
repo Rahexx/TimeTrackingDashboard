@@ -1,2 +1,7 @@
 @import 'styles/base/_reset.scss';
 @import 'styles/utilities/_variables.scss';
+
+.container {
+  background: $navy-950;
+  font-family: $font-primary;
+}
