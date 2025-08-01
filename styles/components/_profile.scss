@@ -1,0 +1,60 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: $space-24;
+  width: 20.438rem;
+  background: $navy-900;
+  border-radius: 0.938rem;
+  overflow: hidden;
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: $space-24;
+    padding: $space-32;
+    background: $purple-600;
+    border-radius: 0.938rem;
+  }
+
+  &__image {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid $white;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: $space-8;
+  }
+
+  &__report {
+    color: $navy-200;
+    line-height: $line-height-120;
+    font-size: $text-15;
+  }
+
+  &__name {
+    color: $white;
+    font-size: $text-24;
+    font-weight: $font-light;
+  }
+
+  &__filters {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: $space-24;
+  }
+
+  &__filter {
+    color: $purple-500;
+    line-height: 1.313rem;
+    font-size: $text-18;
+
+    &--active {
+      color: $white;
+    }
+  }
+}
