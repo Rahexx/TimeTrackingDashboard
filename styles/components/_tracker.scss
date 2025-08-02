@@ -1,0 +1,64 @@
+.tracker {
+  position: relative;
+  height: 10rem;
+  border-radius: 0.938rem;
+  overflow: hidden;
+
+  &--work {
+    background: $orange-300;
+
+    .tracker__icon {
+      top: -0.682rem;
+      right: 1.089rem;
+    }
+  }
+
+  &--play {
+    background: $blue-300;
+
+    .tracker__icon {
+      top: -0.9rem;
+      right: 0.688rem;
+    }
+  }
+
+  &--study {
+    background: $pink-400;
+
+    .tracker__icon {
+      top: -0.378rem;
+      right: 1.067rem;
+    }
+  }
+
+  &--exercise {
+    background: $green-400;
+
+    .tracker__icon {
+      top: -0.026rem;
+      right: 1.101rem;
+    }
+  }
+
+  &--social {
+    background: $purple-700;
+
+    .tracker__icon {
+      top: -0.938rem;
+      right: 0.843rem;
+    }
+  }
+
+  &--care {
+    background: $yellow-300;
+
+    .tracker__icon {
+      top: -1.174rem;
+      right: 0.451rem;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+  }
+}
