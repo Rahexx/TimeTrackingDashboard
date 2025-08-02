@@ -1,8 +1,9 @@
 .tracker {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   height: 10rem;
   border-radius: 0.938rem;
-  overflow: hidden;
 
   &--work {
     background: $orange-300;
@@ -60,5 +61,21 @@
 
   &__icon {
     position: absolute;
+    z-index: 1;
+
+    &--container {
+      position: relative;
+      height: 2.375rem;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  &__info {
+    height: 7.625rem;
+    width: 20.438rem;
+    background: $navy-900;
+    border-radius: 0.75rem;
+    z-index: 2;
   }
 }
