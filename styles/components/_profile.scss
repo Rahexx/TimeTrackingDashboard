@@ -38,6 +38,7 @@
 
   &__name {
     color: $white;
+    line-height: 1.75rem;
     font-size: $text-24;
     font-weight: $font-light;
   }
@@ -56,6 +57,25 @@
 
     &--active {
       color: $white;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .profile {
+    width: 100%;
+
+    &__user {
+      padding: $space-34-5 $space-32;
+    }
+
+    &__filters {
+      justify-content: center;
+    }
+
+    &__filter {
+      width: 6.813rem;
+      text-align: center;
     }
   }
 }
