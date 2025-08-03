@@ -5,3 +5,10 @@
   flex-direction: column;
   gap: $space-24;
 }
+
+@media (min-width: $breakpoint-tablet) {
+  .dashboard {
+    margin: $space-173 auto;
+    width: 38.25rem;
+  }
+}
