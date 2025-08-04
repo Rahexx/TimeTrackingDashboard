@@ -3,3 +3,11 @@
   flex-direction: column;
   gap: $space-24;
 }
+
+@media (min-width: $breakpoint-tablet) {
+  .data {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

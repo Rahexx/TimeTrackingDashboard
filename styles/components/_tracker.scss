@@ -73,13 +73,21 @@
 
   &__info {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     height: 7.625rem;
     width: 20.438rem;
     padding: $space-27-5 $space-24;
     background: $navy-900;
     border-radius: 0.75rem;
     z-index: 2;
+  }
+
+  &__type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: $space-8;
   }
 
   &__title {
@@ -90,7 +98,6 @@
   }
 
   &__time {
-    margin-top: $space-8;
     line-height: 2.375rem;
     color: $white;
     font-size: $text-32;
@@ -99,20 +106,87 @@
 
   &__previous {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: $space-8;
-  }
-
-  &__option {
-    display: inline-block;
-    margin: $space-8 0;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__last {
-    margin-top: $space-10;
     line-height: 1.125rem;
     color: $navy-200;
     font-size: $text-15;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .tracker {
+    justify-content: space-between;
+    height: 13.313rem;
+    width: 11.75rem;
+
+    &--work {
+      .tracker__icon {
+        top: -0.502rem;
+        right: 0.807rem;
+      }
+    }
+
+    &--play {
+      .tracker__icon {
+        top: -0.663rem;
+        right: 0.509rem;
+      }
+    }
+
+    &--study {
+      .tracker__icon {
+        top: -0.28rem;
+        right: 0.786rem;
+      }
+    }
+
+    &--exercise {
+      .tracker__icon {
+        top: -0.019rem;
+        right: 0.816rem;
+      }
+    }
+
+    &--social {
+      .tracker__icon {
+        top: -0.691rem;
+        right: 0.623rem;
+      }
+    }
+
+    &--care {
+      .tracker__icon {
+        top: -0.866rem;
+        right: 0.332rem;
+      }
+    }
+
+    &__icon--container {
+      height: 2.063rem;
+    }
+
+    &__info {
+      display: flex;
+      justify-content: space-between;
+      height: 11.25rem;
+      width: 11.75rem;
+      padding: $space-25-5 $space-21-5;
+    }
+
+    &__time {
+      line-height: 4.125rem;
+      font-size: $text-56;
+    }
+
+    &__previous {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: $space-8;
+    }
   }
 }
