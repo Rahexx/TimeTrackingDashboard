@@ -12,3 +12,10 @@
     width: 38.25rem;
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .dashboard {
+    margin: $space-252 auto;
+    width: 69.75rem;
+  }
+}
