@@ -16,6 +16,9 @@
 @media (min-width: $breakpoint-desktop) {
   .dashboard {
     margin: $space-252 auto;
+    height: 32.5rem;
     width: 69.75rem;
+    flex-direction: row;
+    gap: $space-32;
   }
 }

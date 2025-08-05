@@ -79,3 +79,46 @@
     }
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .profile {
+    flex-direction: column;
+    gap: 0;
+    width: 15.938rem;
+
+    &__user {
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: $space-40;
+      padding: $space-32 $space-32 $space-92 $space-32;
+    }
+
+    &__image {
+      height: 4.875rem;
+      width: 4.875rem;
+    }
+
+    &__info {
+      gap: 0;
+    }
+
+    &__name {
+      line-height: 2.938rem;
+      font-size: $text-40;
+    }
+
+    &__filters {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: $space-21;
+      margin: $space-28 0 0 $space-32;
+    }
+
+    &__filter {
+      text-align: start;
+    }
+  }
+}
