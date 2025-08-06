@@ -11,3 +11,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .data {
+    width: 51.813rem;
+  }
+}

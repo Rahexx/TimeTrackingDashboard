@@ -190,3 +190,62 @@
     }
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .tracker {
+    height: 15.25rem;
+    width: 15.938rem;
+
+    &--work {
+      .tracker__icon {
+        top: -0.682rem;
+        right: 1.089rem;
+      }
+    }
+
+    &--play {
+      .tracker__icon {
+        top: -0.9rem;
+        right: 0.688rem;
+      }
+    }
+
+    &--study {
+      .tracker__icon {
+        top: -0.378rem;
+        right: 1.067rem;
+      }
+    }
+
+    &--exercise {
+      .tracker__icon {
+        top: -0.026rem;
+        right: 1.101rem;
+      }
+    }
+
+    &--social {
+      .tracker__icon {
+        top: -0.938rem;
+        right: 0.843rem;
+      }
+    }
+
+    &--care {
+      .tracker__icon {
+        top: -1.174rem;
+        right: 0.451rem;
+      }
+    }
+
+    &__icon--container {
+      height: 2.813rem;
+    }
+
+    &__info {
+      height: 12.438rem;
+      width: 15.938rem;
+      padding: $space-31 $space-30;
+    }
+  }
+}

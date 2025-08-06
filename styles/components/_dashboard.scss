@@ -8,14 +8,14 @@
 
 @media (min-width: $breakpoint-tablet) {
   .dashboard {
-    margin: $space-173 auto;
+    margin: $space-173 auto 0;
     width: 38.25rem;
   }
 }
 
 @media (min-width: $breakpoint-desktop) {
   .dashboard {
-    margin: $space-252 auto;
+    margin: $space-252 auto 0;
     height: 32.5rem;
     width: 69.75rem;
     flex-direction: row;
