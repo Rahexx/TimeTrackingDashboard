@@ -5,6 +5,14 @@
   height: 10rem;
   border-radius: 0.938rem;
 
+  &:hover {
+    cursor: pointer;
+
+    .tracker__info {
+      background: $navy-800;
+    }
+  }
+
   &--work {
     background: $orange-300;
 
@@ -80,6 +88,7 @@
     background: $navy-900;
     border-radius: 0.75rem;
     z-index: 2;
+    transition: background 0.3s ease-in-out;
   }
 
   &__type {
