@@ -89,6 +89,10 @@
     border-radius: 0.75rem;
     z-index: 2;
     transition: background 0.3s ease-in-out;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
   }
 
   &__type {
