@@ -14,8 +14,8 @@ function updateDashboardData() {
     const currentTime = panel.querySelector('.tracker__time');
     const timeframe = profile.timeframes[activeFilter];
 
-    previousTime.textContent = `${labels[activeFilter]} - ${profile.timeframes.daily.previous}hrs`;
-    currentTime.textContent = `${profile.timeframes.daily.current}hrs`;
+    previousTime.textContent = `${labels[activeFilter]} - ${timeframe.previous}hrs`;
+    currentTime.textContent = `${timeframe.current}hrs`;
   }
 }
 
