@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="container">
+    <main class="dashboard">
+      <div class="profile">
+        <div class="profile__user">
+          <img
+            src="./images/image-jeremy.png"
+            alt="Jeremy Robson"
+            class="profile__image"
+          />
+          <div class="profile__info">
+            <p class="profile__report">Report for</p>
+            <h1 class="profile__name">Jeremy Robson</h1>
+          </div>
+        </div>
+        <ul class="profile__filters">
+          <li class="profile__filter">Daily</li>
+          <li class="profile__filter profile__filter--active">Weekly</li>
+          <li class="profile__filter">Monthly</li>
+        </ul>
+      </div>
+      <div class="data">
+        <div class="tracker tracker--work">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="work icon"
+              src="./images/icon-work.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Work">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Work</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">32hrs</p>
+              <p class="tracker__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="tracker tracker--play">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="play icon"
+              src="./images/icon-play.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Play">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Play</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">10hrs</p>
+              <p class="tracker__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="tracker tracker--study">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="study icon"
+              src="./images/icon-study.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Study">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Study</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">4hrs</p>
+              <p class="tracker__last">Last Week - 7hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="tracker tracker--exercise">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="exercise icon"
+              src="./images/icon-exercise.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Exercise">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Exercise</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">4hrs</p>
+              <p class="tracker__last">Last Week - 5hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="tracker tracker--social">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="social icon"
+              src="./images/icon-social.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Social">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Social</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">5hrs</p>
+              <p class="tracker__last">Last Week - 10hrs</p>
+            </div>
+          </div>
+        </div>
+        <div class="tracker tracker--care">
+          <div class="tracker__icon--container">
+            <img
+              class="tracker__icon"
+              alt="self care icon"
+              src="./images/icon-self-care.svg"
+            />
+          </div>
+          <div class="tracker__info" data-name="Self Care">
+            <div class="tracker__type">
+              <h2 class="tracker__title">Self Care</h2>
+              <img
+                class="tracker__option"
+                alt="option icon"
+                src="./images/icon-ellipsis.svg"
+              />
+            </div>
+            <div class="tracker__previous">
+              <p class="tracker__time">32hrs</p>
+              <p class="tracker__last">Last Week - 2hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

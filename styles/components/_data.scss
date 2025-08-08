@@ -1,0 +1,19 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: $space-24;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .data {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .data {
+    width: 51.813rem;
+  }
+}

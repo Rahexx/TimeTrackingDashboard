@@ -1,0 +1,24 @@
+.dashboard {
+  margin: $space-81 auto;
+  width: 20.4375rem;
+  display: flex;
+  flex-direction: column;
+  gap: $space-24;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .dashboard {
+    margin: $space-173 auto 0;
+    width: 38.25rem;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .dashboard {
+    margin: $space-252 auto 0;
+    height: 32.5rem;
+    width: 69.75rem;
+    flex-direction: row;
+    gap: $space-32;
+  }
+}
